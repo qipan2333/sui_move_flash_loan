@@ -1,0 +1,8 @@
+[package]
+name = "fresh_loan_contract"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+fresh_loan_contract = "0x0"
